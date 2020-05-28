@@ -10,8 +10,16 @@ const GlobalStyle = createGlobalStyle`
   body {
     margin: 0;
     padding: 0;
-    background-color: #fcf3f3;
+    font-family: Didot, serif;
+    
+  }
+  .content {
+    margin: 0 auto;
+    max-width: 90%;
 
+    @media (min-width: 1024px) {
+      max-width: 1276px;
+    }
   }
 `
 export default function Layout({ children }) {

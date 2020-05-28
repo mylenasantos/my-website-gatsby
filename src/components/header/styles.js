@@ -10,6 +10,8 @@ export const Container = styled.header`
 
   img {
     width: 150px;
+    height: 150px;
+    border-radius: 50%;
 
     @media (min-width: 1000px) {
       margin: 76px 40px 0px 54px;
@@ -27,12 +29,17 @@ export const Container = styled.header`
   li {
     margin: 0;
     list-style: none;
-    color: #dd3a44;
-    cursor: pointer;
-    font-family: fantasy;
 
-    @media (min-width: 1000px) {
+    a {
+      list-style: none;
+      color: #e2a286;
+      cursor: pointer;
+      text-decoration: none;
+    }
+
+    @media (min-width: 1024px) {
       margin: 0 50px;
+      font-size: 20px;
     }
   }
 

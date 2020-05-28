@@ -25,10 +25,15 @@ const Header = () => (
           <img src={codeGirl} alt="girl coder" />
         </motion.div>
         <ul>
-          <li>Sobre mim</li>
-          <li>Skills</li>
-          <li>Projetos</li>
-          <li>Mais Informações</li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#projects">Projetos</a>
+          </li>
+          <li>
+            <a href="#moreinfo">Mais Informações</a>
+          </li>
         </ul>
       </Container>
     </motion.header>
