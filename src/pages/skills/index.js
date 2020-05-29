@@ -1,6 +1,7 @@
 import React from "react"
 import { Container } from "./styles"
 import Fade from "react-reveal/Fade"
+import Zoom from "react-reveal/Zoom"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import {
   faReact,
@@ -33,35 +34,38 @@ const Skills = () => (
           <span className="bar-one"></span>
         </div>
 
-        <span>Material-UI</span>
-        <div className="skill">
-          <span className="bar-one" style={{ width: "100%" }}></span>
-        </div>
-        <span>Consumo de APIs REST</span>
-        <div className="skill">
-          <span className="bar-one" style={{ width: "100%" }}></span>
-        </div>
-        <span>HTML5</span>
-        <div className="skill">
-          <span className="bar-one" style={{ width: "100%" }}></span>
-        </div>
-        <span>CSS3</span>
-        <div className="skill">
-          <span className="bar-one" style={{ width: "90%" }}></span>
-        </div>
-        <span>React-Native</span>
-        <div className="skill">
-          <span className="bar-one" style={{ width: "80%" }}></span>
-        </div>
-        <span>Bootstrap</span>
-        <div className="skill">
-          <span className="bar-one" style={{ width: "50%" }}></span>
-        </div>
+        <Zoom right cascade>
+          <span>Material-UI</span>
+          <div className="skill">
+            <span className="bar-one" style={{ width: "100%" }}></span>
+          </div>
+          <span>Consumo de APIs REST</span>
+          <div className="skill">
+            <span className="bar-one" style={{ width: "100%" }}></span>
+          </div>
+          <span>HTML5</span>
+          <div className="skill">
+            <span className="bar-one" style={{ width: "100%" }}></span>
+          </div>
 
-        <span>Docker</span>
-        <div className="skill">
-          <span className="bar-one" style={{ width: "40%" }}></span>
-        </div>
+          <span>CSS3</span>
+          <div className="skill">
+            <span className="bar-one" style={{ width: "90%" }}></span>
+          </div>
+          <span>React-Native</span>
+          <div className="skill">
+            <span className="bar-one" style={{ width: "80%" }}></span>
+          </div>
+          <span>UX/UI</span>
+          <div className="skill">
+            <span className="bar-one" style={{ width: "50%" }}></span>
+          </div>
+
+          <span>Docker</span>
+          <div className="skill">
+            <span className="bar-one" style={{ width: "40%" }}></span>
+          </div>
+        </Zoom>
       </div>
     </Fade>
   </Container>

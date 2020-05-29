@@ -2,7 +2,9 @@ import React from "react"
 import { createGlobalStyle } from "styled-components"
 import Header from "../components/header"
 import AboutMe from "../pages/aboutMe"
-import Skills from "./skills"
+import Skills from "../pages/skills"
+import Project from "../pages/project"
+import Contact from "../pages/contact"
 const GlobalStyle = createGlobalStyle`
  html, body, #root {
    
@@ -30,6 +32,8 @@ export default function Layout({ children }) {
       <Header />
       <AboutMe />
       <Skills />
+      <Project />
+      <Contact />
     </React.Fragment>
   )
 }

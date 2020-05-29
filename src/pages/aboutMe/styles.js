@@ -64,8 +64,10 @@ export const Container = styled.section`
       font-size: 20px;
       font-family: Didot, serif;
       text-align: center;
+      max-width: 500px;
       @media (max-width: 1024px) {
         font-size: 12px;
+        max-width: 100%;
       }
     }
   }
