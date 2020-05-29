@@ -10,7 +10,7 @@ export const Container = styled.section`
   .left {
     width: 50%;
     height: 100vh;
-    background-color: #e2a286;
+    background-color: #f69188;
     display: flex;
     justify-content: center;
     align-items: center;

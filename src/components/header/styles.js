@@ -32,7 +32,7 @@ export const Container = styled.header`
 
     a {
       list-style: none;
-      color: #e2a286;
+      color: #f69188;
       cursor: pointer;
       text-decoration: none;
     }
