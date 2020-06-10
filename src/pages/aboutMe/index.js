@@ -1,12 +1,5 @@
 import { motion } from "framer-motion"
 import { Container } from "./styles"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import {
-  faLinkedin,
-  faGithubSquare,
-  faFacebook,
-  faMedium,
-} from "@fortawesome/free-brands-svg-icons"
 import Fade from "react-reveal/Fade"
 
 import about from "../../images/about.svg"
@@ -59,15 +52,6 @@ const AboutMe = () => (
                 responsabilidade de interagir e reunir requisitos dos
                 stakeholders.
               </p>
-            </div>
-            <div>
-              <FontAwesomeIcon icon={faLinkedin} className={`icon icon-link`} />
-              <FontAwesomeIcon
-                icon={faGithubSquare}
-                className={`icon icon-git`}
-              />
-              <FontAwesomeIcon icon={faFacebook} className={`icon icon-face`} />
-              <FontAwesomeIcon icon={faMedium} className={`icon icon-git`} />
             </div>
           </div>
         </Fade>

@@ -26,6 +26,25 @@ export const Container = styled.section`
     background-color: #fff;
     justify-content: center;
     align-items: center;
+    .icon {
+      opacity: 0.7;
+      font-size: 45px;
+      margin: 0px 5px 0px 0px;
+
+      &-link {
+        color: #0e76a8;
+      }
+      &-git {
+        color: #000;
+      }
+      &-face {
+        color: #3b5998;
+      }
+    }
+    span {
+      margin-top: 10px;
+      margin-bottom: 10px;
+    }
 
     .content-right {
       max-width: 500px;
@@ -33,19 +52,6 @@ export const Container = styled.section`
 
       @media (max-width: 1024px) {
         width: 83%;
-      }
-
-      .project-line {
-        margin-top: 20px;
-        margin-bottom: 10px;
-      }
-
-      .projects {
-        margin-top: 10px;
-        a {
-          text-decoration: none;
-          color: #f69188;
-        }
       }
     }
   }

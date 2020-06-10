@@ -26,7 +26,7 @@ export const Container = styled.section`
   .right {
     width: 50%;
     height: 100vh;
-    background-color: #f3f7f1;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     flex-direction: column;
