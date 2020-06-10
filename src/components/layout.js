@@ -2,10 +2,7 @@ import React, { useState } from "react"
 import { createGlobalStyle } from "styled-components"
 import Header from "../components/header"
 import Burguer from "../components/burguer"
-import AboutMe from "../pages/aboutMe"
-import Skills from "../pages/skills"
-import Project from "../pages/project"
-import Contact from "../pages/contact"
+
 const GlobalStyle = createGlobalStyle`
  html, body, #root {
    
@@ -33,10 +30,7 @@ export default function Layout({ children }) {
       <GlobalStyle />
       <Burguer open={open} setOpen={setOpen} />
       <Header open={open} setOpen={setOpen} />
-      <AboutMe />
-      <Skills />
-      <Project />
-      <Contact />
+      <main>{children}</main>
     </React.Fragment>
   )
 }

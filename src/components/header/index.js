@@ -1,6 +1,6 @@
 import { StyledMenu } from "./styles"
 import codeGirl from "../../images/girl.jpeg"
-import code from "../../images/code.png"
+import Fade from "react-reveal/Fade"
 import { motion } from "framer-motion"
 import { bool } from "prop-types"
 
@@ -18,19 +18,19 @@ const Header = ({ open }) => {
         }}
         transition={{ ease: "easeOut", duration: 2 }}
       >
-        {/* <img src={code}></img> */}
         <StyledMenu open={open}>
-          <div className="image">
-            <img src={codeGirl} alt="girl coder" />
-          </div>
+          <Fade left>
+            <div className="image">
+              <img src={codeGirl} alt="girl coder" />
+            </div>
+            <a href="#aboutMe">Sobre mim</a>
 
-          <a href="#aboutMe">Sobre mim</a>
+            <a href="#skills">Skills</a>
 
-          <a href="#skills">Skills</a>
+            <a href="#project">Projetos</a>
 
-          <a href="#project">Projetos</a>
-
-          <a href="#contact">Contato</a>
+            <a href="#contact">Contato</a>
+          </Fade>
         </StyledMenu>
       </motion.header>
     </>

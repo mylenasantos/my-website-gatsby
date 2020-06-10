@@ -1,19 +1,16 @@
 import styled from "styled-components"
 
 export const StyledMenu = styled.nav`
-  display: flex;
+  display: ${({ open }) => (open ? "flex" : "none")};
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #fff;
   position: relative;
-  transform: ${({ open }) => (open ? "translateX(0)" : "translateX(-100%)")};
-  transform: ${({ open }) => (open ? "translateY(0)" : "translateY(-200%)")};
-  height: ${({ open }) => (open ? "100%" : "188px")};
+  height: ${({ open }) => (open ? "100%" : "0")};
   padding: 2rem;
   top: 0;
   left: 0;
-  transition: transform 0.5s ease-in-out;
 
   @media (max-width: 576px) {
     width: 100%;
