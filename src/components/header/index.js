@@ -6,13 +6,14 @@ import { bool } from "prop-types"
 
 import React from "react"
 
-const Header = ({ open }) => {
+const Header = ({ open, windowWidth }) => {
+  console.log(windowWidth)
   return (
     <>
       <motion.header
         animate={{
           x: 0,
-          y: window.innerWidth >= 1024 ? 20 : 70,
+          y: windowWidth >= 1024 ? 20 : 70,
           scale: 1,
           rotate: 0,
         }}

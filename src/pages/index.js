@@ -1,18 +1,20 @@
-import React, { useState } from "react"
-import Header from "../components/header"
-import Burguer from "../components/burguer"
+import React, { useState, useEffect } from "react"
 import Layout from "../components/layout"
-import AboutMe from "../pages/aboutMe"
-import Skills from "../pages/skills"
-import Project from "../pages/project"
-import Contact from "../pages/contact"
-function Home() {
-  const [open, setOpen] = useState(false)
+import AboutMe from "../components/aboutMe"
+import Skills from "../components/skills"
+import Project from "../components/project"
+import Contact from "../components/contact"
 
+const IndexPage = () => {
+  const [windowSize, setWindowSize] = useState(1439)
+
+  useEffect(() => {
+    const windowWidth = typeof window !== "undefined" ? window.innerWidth : 0
+
+    setWindowSize(windowWidth)
+  }, [])
   return (
     <Layout>
-      <Burguer open={open} setOpen={setOpen} />
-      <Header open={open} setOpen={setOpen} />
       <AboutMe />
       <Skills />
       <Project />
@@ -21,4 +23,4 @@ function Home() {
   )
 }
 
-export default Home
+export default IndexPage

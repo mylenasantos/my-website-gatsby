@@ -14,7 +14,7 @@ const Contact = () => (
   <Container id="contact">
     <Fade left>
       <div className="divider">
-        <img src={contact} />
+        <img src={contact} alt="contato" />
       </div>
     </Fade>
     <Fade right>

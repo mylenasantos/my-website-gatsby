@@ -22,7 +22,7 @@ const AboutMe = () => (
         <Fade left>
           <div className="left">
             <div className="content">
-              <img className="about" src={about} />
+              <img className="about" src={about} alt="sobre mim" />
             </div>
           </div>
         </Fade>
@@ -35,7 +35,7 @@ const AboutMe = () => (
                 rotate: 10,
               }}
             >
-              <img src={aboutMe} className="me" />
+              <img src={aboutMe} className="me" alt="profile" />
             </motion.div>
             <div className="content">
               <p>
