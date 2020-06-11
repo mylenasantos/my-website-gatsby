@@ -31,7 +31,7 @@ const Project = () => (
             </span>
           </div>
           <div className="projects">
-            <a href={"https://github.com/orgs/TW314/teams/tw314_all"}>
+            <a href={"https://github.com/tw314"} target="_blank">
               Projeto TW314 no GitHub
             </a>
           </div>
@@ -46,7 +46,9 @@ const Project = () => (
             </span>
           </div>
           <div className="projects">
-            <a href={"https://incentivar.io/en/"}>Site da Incentivar</a>
+            <a href={"https://incentivar.io/en/"} target="_blank">
+              Site da Incentivar
+            </a>
           </div>
           <div className="project-line">
             <FontAwesomeIcon icon={faAndroid} className="icon" />

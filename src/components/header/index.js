@@ -7,7 +7,6 @@ import { bool } from "prop-types"
 import React from "react"
 
 const Header = ({ open, windowWidth }) => {
-  console.log(windowWidth)
   return (
     <>
       <motion.header
