@@ -52,6 +52,10 @@ const Skills = () => (
           <div className="skill">
             <span className="bar-one" style={{ width: "90%" }}></span>
           </div>
+          <span>Scrum</span>
+          <div className="skill">
+            <span className="bar-one" style={{ width: "90%" }}></span>
+          </div>
           <span>React-Native</span>
           <div className="skill">
             <span className="bar-one" style={{ width: "80%" }}></span>
