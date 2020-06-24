@@ -2,6 +2,7 @@ import React from "react"
 import { Container } from "./styles"
 import Fade from "react-reveal/Fade"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons"
 import {
   faLinkedin,
   faGithubSquare,
@@ -19,9 +20,11 @@ const Contact = () => (
     </Fade>
     <Fade right>
       <div className={`divider right`}>
-        <span>E-mail: myleena.santos@icloud.com</span>
         <span>cel: (11) 98493-0671</span>
         <div>
+          <a href="mailto:myleena.santos@icloud.com" rel="noreferrer">
+            <FontAwesomeIcon icon={faEnvelope} className={`icon icon-mail`} />
+          </a>
           <a
             href="https://www.linkedin.com/in/mylenasantos/"
             target="_blank"

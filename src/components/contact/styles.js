@@ -34,6 +34,9 @@ export const Container = styled.section`
       &-link {
         color: #0e76a8;
       }
+      &-mail {
+        color: #757575;
+      }
       &-git {
         color: #000;
       }
