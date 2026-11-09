@@ -74,7 +74,9 @@ export function Nav() {
 
           <div className="flex items-center gap-2">
             <a
-              href={`mailto:${profile.email}`}
+              href={profile.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
               className="hidden min-h-[44px] items-center gap-1.5 rounded-full bg-violet px-5 text-sm font-medium text-cream transition-colors hover:bg-plum sm:inline-flex"
             >
               Let’s talk <ArrowUpRight size={16} aria-hidden="true" />

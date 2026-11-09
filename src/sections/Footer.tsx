@@ -1,5 +1,4 @@
 import { ArrowUp } from 'lucide-react';
-import { profile } from '../data/content';
 
 export function Footer() {
   return (
@@ -11,11 +10,8 @@ export function Footer() {
             Back to top <ArrowUp size={16} aria-hidden="true" />
           </a>
         </div>
-        <p aria-hidden="true" className="mt-12 select-none whitespace-nowrap bg-gradient-to-r from-violet via-pink to-butter bg-clip-text font-serif text-[17.5vw] leading-[0.8] text-transparent lg:text-[15.2rem]">
-          Mylena Santos
-        </p>
         <div className="mt-8 flex flex-wrap justify-between gap-4 border-t border-cream/15 pt-6 font-mono text-xs text-cream/70">
-          <p>© {new Date().getFullYear()} {profile.name} · {profile.title}</p>
+          <p>© {new Date().getFullYear()}</p>
           <p>Designed & built with React, TypeScript, Tailwind CSS & Framer Motion.</p>
         </div>
       </div>
