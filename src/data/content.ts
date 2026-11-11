@@ -279,8 +279,8 @@ export interface Role {
 export const experience: Role[] = [
   {
     company: 'Incentivar',
-    role: 'Tech Coordinator / Tech Lead',
-    period: 'Apr 2020 — Present',
+    role: 'Tech Lead',
+    period: 'Apr 2021 — Present',
     accent: 'violet',
     points: [
       'Lead engineers through people management, mentoring, IDPs and one-on-ones.',
@@ -291,22 +291,21 @@ export const experience: Role[] = [
   {
     company: 'Incentivar',
     role: 'Frontend Software Engineer',
-    period: 'May 2019 — Apr 2020',
+    period: 'May 2019 — Apr 2021',
     accent: 'pink',
     points: ['Built and evolved React frontends for the product.'],
   },
   {
-    company: 'Xplor Business Solutions',
-    role: 'Mid-Level Software Developer',
-    period: 'Sep 2017 — May 2019',
+    company: 'XPLOR',
+    role: 'Software Developer',
+    period: 'Jan 2019 — May 2019',
     accent: 'cobalt',
     points: ['Developed web applications and integrations, including REST and SOAP services.'],
   },
   {
-    company: 'Xplor Business Solutions',
+    company: 'XPLOR',
     role: 'Junior Software Developer',
-    // Dates intentionally omitted until verified — add them here, e.g. 'Aug 2017 — Sep 2017'.
-    period: null,
+    period: 'Sep 2017 — Jan 2019',
     accent: 'coral',
     points: ['Started building production software as part of the development team.'],
   },
